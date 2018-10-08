@@ -1,0 +1,12 @@
+.hero {
+  background: url("../../../assets/img/code-logo.jpg") no-repeat center top;
+  color: #fff;
+  background-color: #0f111f;
+  text-align: center;
+  height: 900px;
+  margin-top: -160px;
+}
+
+.hero-header {
+  padding-top: 180px;
+}

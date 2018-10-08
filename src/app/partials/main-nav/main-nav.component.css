@@ -1,0 +1,41 @@
+.main-nav {
+  background-color: #da0025;
+  color: #fff;
+  width: 100%;
+  font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+  font-weight: 700;
+  flex-direction: row;
+}
+
+.center-nav {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.navbar-nav {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.home-nav {
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.niu-nav {
+  margin-left: auto;
+}
+
+.separator {
+  padding: 0 12px;
+}
