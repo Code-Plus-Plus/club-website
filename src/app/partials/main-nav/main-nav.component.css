@@ -5,6 +5,7 @@
   font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
   font-weight: 700;
   flex-direction: row;
+  border-bottom: 4px solid #000;
 }
 
 .center-nav {
