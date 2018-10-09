@@ -1,0 +1,40 @@
+.main-footer {
+  margin: 0;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+}
+
+i {
+  margin-right: 6px;
+}
+
+.footer-header {
+  font-size: 16px;
+}
+
+h2.footer-header {
+  padding-top: 20px;
+}
+
+h3.footer-header:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  margin-top: -30px;
+}
+
+.phone-link {
+  color: #fff;
+  padding: 6px;
+}
+
+.phone-link:hover {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}

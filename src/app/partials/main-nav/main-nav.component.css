@@ -27,6 +27,11 @@
   color: #fff;
 }
 
+.nav-link:hover {
+  background-color: #eee;
+  color: #000;
+}
+
 .home-nav {
   margin-right: auto;
   font-size: 22px;

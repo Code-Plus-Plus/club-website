@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import { MainNavComponent } from './partials/main-nav/main-nav.component';
+import { MainFooterComponent } from './partials/main-footer/main-footer.component';
 
 import { HomeComponent } from './components/home/home.component';
 import { RosterComponent } from './components/roster/roster.component';
@@ -28,6 +29,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     MainNavComponent,
+    MainFooterComponent,
     HomeComponent,
     RosterComponent,
     ProjectsComponent,
