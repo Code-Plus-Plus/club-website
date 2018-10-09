@@ -40,7 +40,7 @@
 
   </ul> <!-- lg-screen-only nav -->
 
-  <div class="sm-screen-only ml-auto">
+  <div class="sm-screen-only ml-auto nav-sm">
     <nav class="navbar navbar-sm ml-auto">
       <button class="navbar-toggler bg-black ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars collapse-bars" aria-hidden="true"></i>
@@ -48,24 +48,36 @@
       </button>
     </nav>
     <div class="collapse navbar-collapse bg-black" id="navbarToggleExternalContent">
-      <ul class="navbar-sm-list bg-black">
+      <ul class="navbar-sm-list">
         <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="/" routerLinkActive="active">
+            <i class="fa fa-home" aria-hidden="true"></i>Home
+          </a>
         </li>
         <li class="nav-item-sm"  data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" routerLink="/roster" routerLinkActive="active">Club Roster</a>
+          <a class="nav-link" routerLink="/roster" routerLinkActive="active">
+            <i class="fa fa-address-card" aria-hidden="true"></i>Club Roster
+          </a>
         </li>
         <li class="nav-item-sm"  data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" routerLink="/events" routerLinkActive="active">Events</a>
+          <a class="nav-link" routerLink="/events" routerLinkActive="active">
+            <i class="fa fa-calendar" aria-hidden="true"></i>Events
+          </a>
         </li>
         <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" routerLink="/tutors" routerLinkActive="active">Tutoring</a>
+          <a class="nav-link" routerLink="/tutors" routerLinkActive="active">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>Tutoring
+          </a>
         </li>
         <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" routerLink="/resources" routerLinkActive="active">Coding Resources</a>
+          <a class="nav-link" routerLink="/resources" routerLinkActive="active">
+            <i class="fa fa-newspaper-o" aria-hidden="true"></i>Coding Resources
+          </a>
         </li>
         <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" routerLink="/about" routerLinkActive="active">About Us</a>
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>About Us
+          </a>
         </li>
       </ul>
     </div> <!-- navbar-collapse -->

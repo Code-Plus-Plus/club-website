@@ -63,7 +63,10 @@
 
 
 /* mobile navbar styles */
-
+.nav-sm {
+  width: 100%;
+  text-align: center;
+}
 
 .bg-black {
   background-color: #000;
@@ -73,6 +76,7 @@
 .navbar-sm-list {
   padding-left: 0;
   list-style-type: none;
+  width: 94%;
 }
 
 .navbar-toggler {
@@ -80,9 +84,14 @@
 }
 
 .nav-item-sm {
-  padding: 16px;
+  padding: 20px;
 }
 
 .collapse-bars {
   color: #fff;
+  padding: 4px;
+}
+
+a > i.fa {
+  margin-right: 10px;
 }
