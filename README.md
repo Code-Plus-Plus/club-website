@@ -1,6 +1,17 @@
 # CodeClub
+Website for NIU's Code++ Club
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+## Getting Started - Install Dependencies
+* Download and install git from https://git-scm.com/downloads
+* Download and install Node.js from https://nodejs.org/en/download/
+* Install Angular CLI with `npm install -g @angular/cli`
+
+## Getting Started - Install the Project
+* Install project with `git clone https://github.com/TySabs/code-club.git`
+* Navigate to directory with `cd code-club`
+* Install dependencies with `npm install`
+* Run development server with `ng serve`
+* Project will now be served in browsers at `http://localhost:4200/`
 
 ## Development server
 
