@@ -1,8 +1,8 @@
 <nav class="navbar fixed-top main-nav">
-  <ul class="navbar-nav main-nav-list">
+  <ul class="navbar-nav main-nav-list lg-screen-only">
     <li class="nav-item home-nav">
       <a class="nav-link" routerLink="/" routerLinkActive="active">
-        <i class="fa fa-home"></i>
+        <i class="fa fa-home" aria-hidden="true"></i>
       </a>
     </li>
 
@@ -38,5 +38,36 @@
       </a>
     </li>
 
-  </ul>
+  </ul> <!-- lg-screen-only nav -->
+
+  <div class="sm-screen-only ml-auto">
+    <nav class="navbar navbar-sm ml-auto">
+      <button class="navbar-toggler bg-black ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars collapse-bars" aria-hidden="true"></i>
+        <span class="sr-only">Toggle Navigation</span>
+      </button>
+    </nav>
+    <div class="collapse navbar-collapse bg-black" id="navbarToggleExternalContent">
+      <ul class="navbar-sm-list bg-black">
+        <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item-sm"  data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="/roster" routerLinkActive="active">Club Roster</a>
+        </li>
+        <li class="nav-item-sm"  data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="/events" routerLinkActive="active">Events</a>
+        </li>
+        <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="/tutors" routerLinkActive="active">Tutoring</a>
+        </li>
+        <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="/resources" routerLinkActive="active">Coding Resources</a>
+        </li>
+        <li class="nav-item-sm" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="/about" routerLinkActive="active">About Us</a>
+        </li>
+      </ul>
+    </div> <!-- navbar-collapse -->
+  </div>
 </nav>

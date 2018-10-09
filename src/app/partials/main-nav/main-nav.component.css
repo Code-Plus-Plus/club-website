@@ -1,3 +1,5 @@
+/* Global and desktop styles */
+
 .main-nav {
   background-color: #da0025;
   color: #fff;
@@ -28,7 +30,8 @@
   color: #fff;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-item-sm:hover   {
   background-color: #eee;
   color: #000;
 }
@@ -44,4 +47,42 @@
 
 .separator {
   padding: 0 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-screen-only {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lg-screen-only {
+    display: none;
+  }
+}
+
+
+/* mobile navbar styles */
+
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar-sm-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.navbar-toggler {
+  margin-right: -12px;
+}
+
+.nav-item-sm {
+  padding: 16px;
+}
+
+.collapse-bars {
+  color: #fff;
 }
