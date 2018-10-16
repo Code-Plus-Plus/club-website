@@ -1,0 +1,22 @@
+.main-header {
+  text-align: center;
+}
+
+.roster-list {
+  text-align: center;
+  margin: 0 auto;
+  list-style-type: none;
+  padding-left: 0;
+  width: 40%;
+}
+
+.roster-li {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.roster-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}

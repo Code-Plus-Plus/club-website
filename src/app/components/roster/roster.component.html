@@ -1,1 +1,10 @@
-<h1>Hello {{title}} Roster Page!</h1>
+<h1 class="main-header">Code++ Roster</h1>
+
+<ul class="roster-list">
+  <li *ngFor='let roster of rosterList' class="roster-li card">
+    <h2 class="roster-day-header">{{roster.firstName}} {{roster.lastName}}</h2>
+    <img src="./assets/img/stock/placeholder-1.png" alt="" class="roster-img">
+    <p class="roster-li-text">Position: {{roster.position}}</p>
+    <p class="roster-li-text">{{roster.email}}</p>
+  </li>
+</ul>
