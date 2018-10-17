@@ -3,11 +3,12 @@
 .main-nav {
   background-color: #da0025;
   color: #fff;
-  width: 100%;
+  width: 100vw;
   font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
   font-weight: 700;
   flex-direction: row;
   border-bottom: 4px solid #000;
+  margin: 0;
 }
 
 .center-nav {
@@ -94,4 +95,10 @@
 
 .sm-icon {
   margin-right: 10px;
+}
+
+.main-nav,
+.navbar,
+.navbar-sm {
+  margin: 0;
 }

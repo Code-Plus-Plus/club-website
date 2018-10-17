@@ -31,9 +31,6 @@
   }
 }
 
-
-
-
 .hero-headers {
   margin: 0 auto;
   padding: 20px;
@@ -46,7 +43,7 @@
 }
 
 .feature-list {
-  margin-top: 40px;
+  margin-top: 24px;
   text-align: center;
   list-style-type: none;
   padding-left: 0;
