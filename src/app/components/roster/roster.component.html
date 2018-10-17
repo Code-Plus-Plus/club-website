@@ -10,7 +10,7 @@
 <ul class="roster-list">
   <li *ngFor='let listing of rosterList' class="roster-li card">
     <h2 class="roster-day-header">{{listing.firstName}} {{listing.lastName}}</h2>
-    <img src="./assets/img/stock/placeholder-1.png" alt="" class="roster-img">
+    <img src="{{listing.imgUrl}}" alt="{{listing.firstName}}'s pic'" class="roster-img">
     <p class="roster-li-text">Position: {{listing.position}}</p>
     <p class="roster-li-text">{{listing.email}}</p>
   </li>

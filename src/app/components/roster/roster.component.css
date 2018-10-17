@@ -10,15 +10,32 @@
   width: 40%;
 }
 
+@media screen and (max-width: 576px) {
+  .roster-list {
+    width: 90%;
+  }
+}
+
 .roster-li {
   margin-top: 40px;
   padding: 20px;
 }
 
 .roster-img {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+  .roster-img {
+    width: 200px;
+    height: 200px
+  }
+
+  .header-img {
+    width: 90vw;
+  }
 }
 
 .img-wrapper {
