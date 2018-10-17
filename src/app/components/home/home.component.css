@@ -70,5 +70,6 @@
 @media screen and (max-width: 576px) {
   .feature-img {
     width: 210px;
+    margin-top: 36px;
   }
 }

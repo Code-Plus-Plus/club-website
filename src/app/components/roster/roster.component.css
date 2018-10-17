@@ -20,3 +20,11 @@
   height: 200px;
   margin: 0 auto;
 }
+
+.img-wrapper {
+  text-align: center;
+}
+
+.header-img {
+  margin: 10 auto;
+}

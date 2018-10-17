@@ -27,7 +27,7 @@ export const clubRoster: RosterListing[] = [
     lastName: "Pantoja",
     imgUrl: "./assets/img/stock/placeholder-1.jpg",
     email: "gonzo@ieee.org",
-    position: "Secretary"
+    position: "Community Organizer"
   },
   {
     firstName: "Kevin",
