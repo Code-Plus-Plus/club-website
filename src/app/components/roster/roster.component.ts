@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { studentRoster } from './roster';
+import { clubRoster } from './club-roster';
 
 @Component({
   selector: 'club-roster',
@@ -8,5 +8,5 @@ import { studentRoster } from './roster';
   styleUrls: ['./roster.component.css']
 })
 export class RosterComponent {
-  rosterList = studentRoster;
+  rosterList = clubRoster;
 }

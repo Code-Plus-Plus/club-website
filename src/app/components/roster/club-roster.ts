@@ -7,7 +7,7 @@ export class RosterListing {
   projects?: any[];
 }
 
-export const studentRoster: RosterListing[] = [
+export const clubRoster: RosterListing[] = [
   {
     firstName: "Akshay",
     lastName: "Patel",
