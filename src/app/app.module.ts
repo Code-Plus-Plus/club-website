@@ -12,8 +12,9 @@ import { RosterComponent } from './components/roster/roster.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { EventsComponent } from './components/events/events.component';
 import { TutorsComponent } from './components/tutors/tutors.component';
-import { ResourcesComponent } from './components/resources/resources.component';
 import { AboutComponent } from './components/about/about.component';
+import { ResourcesComponent } from './components/resources/resources.component';
+import { CircuitIdComponent } from './components/resources/c463/circuit-id/circuit-id.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,8 +22,9 @@ const appRoutes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'events', component: EventsComponent },
   { path: 'tutors', component: TutorsComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'resources', component: ResourcesComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'resources/c463/circuit-id', component: CircuitIdComponent}
 ];
 
 @NgModule({
@@ -36,7 +38,8 @@ const appRoutes: Routes = [
     EventsComponent,
     TutorsComponent,
     ResourcesComponent,
-    AboutComponent
+    AboutComponent,
+    CircuitIdComponent
   ],
   imports: [
     BrowserModule,

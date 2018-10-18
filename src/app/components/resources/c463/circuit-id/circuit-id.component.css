@@ -1,0 +1,31 @@
+.main-header,
+.circuit-header {
+  text-align: center;
+}
+
+.circuit-list {
+  width: 40%;
+  margin: auto;
+  margin-top: 32px;
+  padding-left: 0;
+}
+
+.circuit-img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+  .circuit-list {
+    width: 84%;
+  }
+
+  .circuit-img {
+    width: 96%;
+  }
+}
+
+.circuit-li {
+  margin-top: 36px;
+  padding: 20px;
+}

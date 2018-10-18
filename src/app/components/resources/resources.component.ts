@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './resources.component.html',
   styleUrls: ['./resources.component.css']
 })
-export class ResourcesComponent {
-  title: string = "Welcome to RESOURCES!";
-}
+export class ResourcesComponent { }

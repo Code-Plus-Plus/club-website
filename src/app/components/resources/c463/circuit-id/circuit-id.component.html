@@ -1,0 +1,8 @@
+<h1 class="main-header">C463 Circuit IDs</h1>
+
+<ul class="circuit-list">
+  <li *ngFor="let circuit of circuitList" class="circuit-li card">
+    <h2 class="circuit-header">{{circuit.name}}</h2>
+    <img src="./assets/img/resources/c463/circuits/{{circuit.imgUrl}}" class="circuit-img">
+  </li>
+</ul>

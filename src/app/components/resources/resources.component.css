@@ -1,0 +1,10 @@
+.main-header,
+.class-header {
+  text-align: center;
+}
+
+.class-list {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
