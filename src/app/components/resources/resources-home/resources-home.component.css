@@ -3,8 +3,40 @@
   text-align: center;
 }
 
-.class-list {
+.class-list,
+.resource-list {
   list-style-type: none;
   text-align: center;
   padding-left: 0;
+}
+
+.class-li {
+  margin: 36px auto;
+  width: 50%;
+  padding: 32px;
+}
+
+@media screen and (max-width: 576px) {
+  .class-li {
+    margin: 22px auto;
+    width: 90%;
+    padding: 22px;
+    font-size: 18px;
+  }
+
+  h2.class-header {
+    font-size: 28px;
+  }
+
+  h3.class-header {
+    font-size: 22px;
+  }
+
+  .main-header {
+    font-size: 32px;
+  }
+}
+
+.resource-li {
+  margin: 12px auto;
 }
