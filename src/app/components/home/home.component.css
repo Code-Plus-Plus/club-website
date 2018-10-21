@@ -18,8 +18,14 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    height: 500px;
+    height: 400px;
+    padding-top: 120px;
+    margin-top: -80px;
     background-position: center center;
+  }
+
+  .hero-headers {
+    margin-bottom: 60px;
   }
 
   .welcome-header {
@@ -36,6 +42,21 @@
   padding: 20px;
   width: 60%;
   background-color: rgba(0, 0, 0, 0.35);
+}
+
+
+@media screen and (max-width: 372px) {
+  .welcome-header {
+    font-size: 26px;
+  }
+
+  .welcome-subheader {
+    font-size: 14px;
+  }
+
+  .hero-header {
+    padding: 10px;
+  }
 }
 
 .dark-highlight {
@@ -66,7 +87,7 @@
 
 @media screen and (max-width: 576px) {
   .feature-img {
-    width: 210px;
+    width: 260px;
     margin-top: 36px;
   }
 }

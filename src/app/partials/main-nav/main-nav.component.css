@@ -77,7 +77,7 @@
 .navbar-sm-list {
   padding-left: 0;
   list-style-type: none;
-  width: 94%;
+  width: 100%;
 }
 
 .navbar-toggler {
@@ -86,6 +86,7 @@
 
 .nav-item-sm {
   padding: 20px;
+  width: 100%;
 }
 
 .collapse-bars {
@@ -101,4 +102,11 @@
 .navbar,
 .navbar-sm {
   margin: 0;
+}
+
+.navbar-sm-header {
+  display: inline;
+  margin-top: 10px;
+  font-size: 36px;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
