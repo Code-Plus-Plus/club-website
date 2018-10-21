@@ -8,6 +8,23 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 576px) {
+  .main-wrapper {
+    width: 94%;
+    padding: 10px;
+    padding-bottom: 32px;
+  }
+
+  .main-header {
+    font-size: 32px;
+  }
+
+  .header-img {
+    width: 240px;
+  }
+}
+
+
 .roster-list {
   text-align: center;
   margin: 0 auto;
@@ -39,8 +56,12 @@
     height: 200px
   }
 
-  .header-img {
-    width: 90vw;
+  .roster-header {
+    font-size: 28px;
+  }
+
+  .roster-li-text {
+    font-size: 18px;
   }
 }
 

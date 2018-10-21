@@ -34,7 +34,7 @@ export const clubRoster: RosterListing[] = [
     lastName: "Kang",
     imgUrl: "./assets/img/roster/kevin-md.jpg",
     email: "kevin@kang.net",
-    position: "Project Manager"
+    position: "Full Stack Developer"
   },
   {
     firstName: "Smit",
@@ -46,8 +46,8 @@ export const clubRoster: RosterListing[] = [
   {
     firstName: "Purvin",
     lastName: "Patel",
-    imgUrl: "./assets/img/stock/placeholder-1.png",
-    email: "smitty@ieee.org",
+    imgUrl: "./assets/img/roster/purvin-md.jpg",
+    email: "purvin@ieee.org",
     position: "Treasurer"
   },
   {
@@ -56,5 +56,26 @@ export const clubRoster: RosterListing[] = [
     imgUrl: "./assets/img/roster/ty-md.jpg",
     email: "sabs.mailer@gmail.com",
     position: "Web Engineer"
-  }
+  },
+  {
+    firstName: "Ronald",
+    lastName: "Holden",
+    imgUrl: "./assets/img/roster/ronald-md.jpg",
+    email: "ron@holden.com",
+    position: "Member"
+  },
+  {
+    firstName: "Salih",
+    lastName: "Targoni",
+    imgUrl: "./assets/img/roster/salih-md.jpg",
+    email: "salih@targoni.com",
+    position: "Member"
+  },
+  {
+    firstName: "Antonio",
+    lastName: "Carter",
+    imgUrl: "./assets/img/roster/antonio-md.jpg",
+    email: "antonio@carter.com",
+    position: "Member"
+  },
 ];
