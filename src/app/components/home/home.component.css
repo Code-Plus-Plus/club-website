@@ -71,7 +71,7 @@
 }
 
 .feature-link {
-  margin-top: 8px;
+  margin-top: 32px;
   font-size: 16px;
   color: #000;
 }
@@ -85,9 +85,14 @@
   font-size: 16px;
 }
 
-@media screen and (max-width: 576px) {
-  .feature-img {
-    width: 260px;
-    margin-top: 36px;
+.feature-img {
+  margin-top: 36px;
+  width: 280px;
+}
+
+@media screen and (min-width: 1100px) {
+  .links-row {
+    width: 82%;
+    margin: 0 auto;
   }
 }
