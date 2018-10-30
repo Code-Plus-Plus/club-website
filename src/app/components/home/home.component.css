@@ -25,49 +25,18 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    height: 400px;
-    padding-top: 120px;
-    margin-top: -80px;
-    background-position: center center;
-  }
-
-  .hero-headers {
-    margin-bottom: 60px;
-  }
-
-  .welcome-header {
-    font-size: 32px;
-  }
-
-  .welcome-subheader {
-    font-size: 18px;
+    height: 500px;
+    padding-top: 80px;
+    margin-top: -120px;
   }
 }
-
-.hero-headers {
-  margin: 0 auto;
-  padding: 20px;
-  width: 60%;
-  background-color: rgba(0, 0, 0, 0.35);
-}
-
 
 @media screen and (max-width: 372px) {
-  .welcome-header {
-    font-size: 26px;
+  .hero {
+    height: 360px;
+    padding-top: 80px;
+    margin-top: -120px;
   }
-
-  .welcome-subheader {
-    font-size: 14px;
-  }
-
-  .hero-header {
-    padding: 10px;
-  }
-}
-
-.dark-highlight {
-  padding: 0 10px;
 }
 
 .feature-list {
