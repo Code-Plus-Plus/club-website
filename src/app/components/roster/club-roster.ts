@@ -78,4 +78,11 @@ export const clubRoster: RosterListing[] = [
     email: "antonio@carter.com",
     position: "Member"
   },
+  {
+    firstName: "Josh",
+    lastName: "Ruge",
+    imgUrl: "./assets/img/roster/josh-md.jpg",
+    email: "josh@ruge.com",
+    position: "Member"
+  },
 ];

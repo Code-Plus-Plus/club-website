@@ -1,0 +1,10 @@
+.main-header,
+.const-link,
+.link-wrapper,
+.img-wrapper {
+  text-align: center;
+}
+
+.img-wrapper {
+  margin-bottom: 100px;  
+}
