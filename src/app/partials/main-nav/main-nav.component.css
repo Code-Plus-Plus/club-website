@@ -1,7 +1,7 @@
 /* Global and desktop styles */
 
 .main-nav {
-  background-color: #764FE6;
+  background-color: #542bdd;
   color: #fff;
   width: 100vw;
   font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
@@ -107,6 +107,16 @@
 .navbar-sm-header {
   display: inline;
   margin-top: 10px;
-  font-size: 36px;
+  font-size: 32px;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+@media screen and (max-width: 368px) {
+  .navbar-sm-header {
+    font-size: 22px;
+  }
+}
+
+.nav-logo {
+  margin-right: 10px;
 }
