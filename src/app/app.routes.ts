@@ -12,6 +12,8 @@ export const routes: Routes = [
   { path: 'about', loadChildren: './components/about/about.module#AboutModule', pathMatch: 'full'},
   { path: 'resources', loadChildren: './components/resources/resources.module#ResourcesModule'},
   { path: 'login-admin', loadChildren: './components/login-admin/login-admin.module#LoginAdminModule'},
+
+  { path: '**', redirectTo: ''}
 ];
 
 export const appRoutes = RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules });

@@ -1,4 +1,3 @@
-.main-header,
 .const-link,
 .link-wrapper,
 .img-wrapper {
@@ -6,8 +5,8 @@
 }
 
 .img-wrapper {
-  width: 92%;
-  margin: 28px auto 72px auto;
+  width: 90%;
+  margin: 0 auto 72px auto;
 }
 
 .header-img {
