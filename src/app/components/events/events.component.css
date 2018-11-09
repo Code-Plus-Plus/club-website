@@ -17,3 +17,19 @@
 .event-header {
   text-align: center;
 }
+
+
+@media screen and (max-width: 576px) {
+  .event-wrapper {
+    width: 90%;
+    padding: 10px;
+  }
+
+  h2.event-header {
+    font-size: 26px;
+  }
+
+  h3.event-header {
+    font-size: 18px;
+  }
+}
