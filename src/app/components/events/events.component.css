@@ -1,0 +1,19 @@
+.img-wrapper {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 72px auto;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.event-wrapper {
+  width: 40%;
+  padding: 24px;
+  margin: 32px auto;
+}
+
+.event-header {
+  text-align: center;
+}

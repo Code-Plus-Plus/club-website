@@ -1,0 +1,17 @@
+.main-header,
+.img-wrapper {
+text-align: center;
+}
+
+.add-member-form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.pic-input {
+  margin: 32px auto;
+}
+
+.submission-header {
+  margin-top: 32px;
+}

@@ -3,6 +3,16 @@
   text-align: center;
 }
 
+.img-wrapper {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 72px auto;
+}
+
+.header-img {
+  width: 100%;
+}
+
 .class-list,
 .resource-list {
   list-style-type: none;
