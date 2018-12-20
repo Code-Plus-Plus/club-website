@@ -21,14 +21,14 @@ export const clubRoster: RosterListing[] = [
     firstName: "Mohammad",
     lastName: "Khan",
     imgUrl: "./assets/img/roster/mohammad-md.jpg",
-    email: "mo@cash.money",
+    email: "mohsabkha@gmail.com",
     position: "Vice President"
   },
   {
     firstName: "Gonzalo",
     lastName: "Pantoja",
     imgUrl: "./assets/img/roster/gonzalo-md.jpg",
-    email: "gonzo@ieee.org",
+    email: "gpantoja@niu.edu",
     position: "Community Organizer",
     linkedin: "gonzalo-pantoja-b05a12170"
   },
@@ -36,14 +36,14 @@ export const clubRoster: RosterListing[] = [
     firstName: "Kevin",
     lastName: "Kang",
     imgUrl: "./assets/img/roster/kevin-md.jpg",
-    email: "kevin@kang.net",
+    email: "kevink@niu.edu",
     position: "Full Stack Developer"
   },
   {
     firstName: "Smit",
     lastName: "Patel",
     imgUrl: "./assets/img/roster/smit-md.jpg",
-    email: "smitty@ieee.org",
+    email: "spatel33@niu.edu",
     position: "Ambassador",
     linkedin: "smit-patel-b35898150"
   },
@@ -51,7 +51,7 @@ export const clubRoster: RosterListing[] = [
     firstName: "Purvin",
     lastName: "Patel",
     imgUrl: "./assets/img/roster/purvin-md.jpg",
-    email: "purvin@ieee.org",
+    email: "ppatel17@niu.edu",
     position: "Treasurer",
     linkedin: "purvin-patel-573139162"
   },
@@ -59,7 +59,7 @@ export const clubRoster: RosterListing[] = [
     firstName: "Tyler",
     lastName: "Saballus",
     imgUrl: "./assets/img/roster/ty-md.jpg",
-    email: "sabs.mailer@gmail.com",
+    email: "tsaballus@niu.edu",
     position: "Web Engineer",
     linkedin: "tysabs"
   },
@@ -67,28 +67,28 @@ export const clubRoster: RosterListing[] = [
     firstName: "Ronald",
     lastName: "Holden",
     imgUrl: "./assets/img/roster/ronald-md.jpg",
-    email: "ron@holden.com",
+    email: "rholden@niu.edu",
     position: "Member"
   },
   {
     firstName: "Salih",
     lastName: "Targoni",
     imgUrl: "./assets/img/roster/salih-md.jpg",
-    email: "salih@targoni.com",
+    email: "smustafatargoni1@niu.edu",
     position: "Member"
   },
   {
     firstName: "Antonio",
     lastName: "Carter",
     imgUrl: "./assets/img/roster/antonio-md.jpg",
-    email: "antonio@carter.com",
+    email: "acarter4@niu.edu",
     position: "Member"
   },
   {
     firstName: "Josh",
     lastName: "Ruge",
     imgUrl: "./assets/img/roster/josh-md.jpg",
-    email: "lorem@ipsum.org",
+    email: "jruge@niu.edu",
     position: "Member",
     linkedin: "josh-ruge-3166a649"
   },
@@ -96,7 +96,7 @@ export const clubRoster: RosterListing[] = [
     firstName: "Rohit",
     lastName: "Sankhe",
     imgUrl: "./assets/img/roster/rohit-md.jpg",
-    email: "lorem@ipsum.org",
+    email: "rsankhe@niu.edu",
     position: "Member",
     linkedin: "rohit-sankhe-20293161"
   },
@@ -104,7 +104,7 @@ export const clubRoster: RosterListing[] = [
     firstName: "Sameer",
     lastName: "Tariq",
     imgUrl: "./assets/img/roster/sameer-md.jpg",
-    email: "lorem@ipsum.org",
+    email: "stariq1@niu.edu",
     position: "Member",
     linkedin: "sameer-tariq"
   },
@@ -112,7 +112,7 @@ export const clubRoster: RosterListing[] = [
     firstName: "Salman",
     lastName: "Sattar",
     imgUrl: "./assets/img/roster/salman-md.jpg",
-    email: "lorem@ipsum.org",
+    email: "ssattar@niu.edu",
     position: "Member",
     linkedin: "salman-sattar-33b95a171"
   },
