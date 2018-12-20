@@ -106,4 +106,11 @@ export const clubRoster: RosterListing[] = [
     email: "lorem@ipsum.org",
     position: "Member"
   },
+  {
+    firstName: "Salman",
+    lastName: "Sattar",
+    imgUrl: "./assets/img/roster/salman-md.jpg",
+    email: "lorem@ipsum.org",
+    position: "Member"
+  },
 ];
