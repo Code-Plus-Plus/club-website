@@ -120,7 +120,7 @@ export const clubRoster: RosterListing[] = [
     firstName: "Shaniel 'Omar'",
     lastName: "Rivas Verdejo",
     imgUrl: "./assets/img/roster/shaniel-md.jpg",
-    email: "lorem@ipsum.org",
+    email: "shanielrivas31@gmail.com",
     position: "Member",
     linkedin: "shaniel-omar-rivas-verdejo-6338357b"
   },

@@ -2,7 +2,10 @@
   <ul class="navbar-nav main-nav-list lg-screen-only">
     <li class="nav-item home-nav">
       <a routerLink="/" routerLinkActive="active">
-        <img src="./assets/img/code-logo-xs.jpg" alt="Code++ Logo" class="nav-logo">
+        <img [src]="isLogoHover ? './assets/img/code-logo-xs-hover.jpg' : './assets/img/code-logo-xs.jpg'"
+          alt="Code++ Logo." class="nav-logo"
+          (mouseover)="isLogoHover = true"
+          (mouseout)="isLogoHover = false">
       </a>
     </li>
 

@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './main-nav.component.html',
   styleUrls: ['./main-nav.component.css']
 })
-export class MainNavComponent { }
+export class MainNavComponent {
+  isLogoHover: boolean = false;
+}
