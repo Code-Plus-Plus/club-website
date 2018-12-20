@@ -4,6 +4,7 @@ export class RosterListing {
   imgUrl: string;
   email: string;
   position: string;
+  linkedin?: string;
   projects?: any[];
 }
 
@@ -13,7 +14,8 @@ export const clubRoster: RosterListing[] = [
     lastName: "Patel",
     imgUrl: "./assets/img/roster/akshay-md.jpg",
     email: "ap95@ieee.org",
-    position: "President"
+    position: "President",
+    linkedin: "akshay-patel-9b3200122"
   },
   {
     firstName: "Mohammad",
@@ -27,7 +29,8 @@ export const clubRoster: RosterListing[] = [
     lastName: "Pantoja",
     imgUrl: "./assets/img/roster/gonzalo-md.jpg",
     email: "gonzo@ieee.org",
-    position: "Community Organizer"
+    position: "Community Organizer",
+    linkedin: "gonzalo-pantoja-b05a12170"
   },
   {
     firstName: "Kevin",
@@ -41,21 +44,24 @@ export const clubRoster: RosterListing[] = [
     lastName: "Patel",
     imgUrl: "./assets/img/roster/smit-md.jpg",
     email: "smitty@ieee.org",
-    position: "Ambassador"
+    position: "Ambassador",
+    linkedin: "smit-patel-b35898150"
   },
   {
     firstName: "Purvin",
     lastName: "Patel",
     imgUrl: "./assets/img/roster/purvin-md.jpg",
     email: "purvin@ieee.org",
-    position: "Treasurer"
+    position: "Treasurer",
+    linkedin: "purvin-patel-573139162"
   },
   {
     firstName: "Tyler",
     lastName: "Saballus",
     imgUrl: "./assets/img/roster/ty-md.jpg",
     email: "sabs.mailer@gmail.com",
-    position: "Web Engineer"
+    position: "Web Engineer",
+    linkedin: "tysabs"
   },
   {
     firstName: "Ronald",
@@ -83,34 +89,39 @@ export const clubRoster: RosterListing[] = [
     lastName: "Ruge",
     imgUrl: "./assets/img/roster/josh-md.jpg",
     email: "lorem@ipsum.org",
-    position: "Member"
+    position: "Member",
+    linkedin: "josh-ruge-3166a649"
   },
   {
     firstName: "Shaniel 'Omar'",
     lastName: "Rivas Verdejo",
     imgUrl: "./assets/img/roster/shaniel-md.jpg",
     email: "lorem@ipsum.org",
-    position: "Member"
+    position: "Member",
+    linkedin: "shaniel-omar-rivas-verdejo-6338357b"
   },
   {
     firstName: "Rohit",
     lastName: "Sankhe",
     imgUrl: "./assets/img/roster/rohit-md.jpg",
     email: "lorem@ipsum.org",
-    position: "Member"
+    position: "Member",
+    linkedin: "rohit-sankhe-20293161"
   },
   {
     firstName: "Sameer",
     lastName: "Tariq",
     imgUrl: "./assets/img/roster/sameer-md.jpg",
     email: "lorem@ipsum.org",
-    position: "Member"
+    position: "Member",
+    linkedin: "sameer-tariq"
   },
   {
     firstName: "Salman",
     lastName: "Sattar",
     imgUrl: "./assets/img/roster/salman-md.jpg",
     email: "lorem@ipsum.org",
-    position: "Member"
+    position: "Member",
+    linkedin: "salman-sattar-33b95a171"
   },
 ];

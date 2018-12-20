@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .main-wrapper {
     width: 94%;
     padding: 10px;
@@ -33,30 +33,25 @@
   width: 40%;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .roster-list {
     width: 90%;
   }
 }
 
-.roster-li {
+.roster-li-wrapper {
   margin-top: 40px;
-  padding: 20px;
+  padding: 16px 60px;
 }
 
 .roster-img {
   width: 400px;
-  max-width: 98%;
+  max-width: 94%;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 12px auto;
 }
 
-@media screen and (max-width: 576px) {
-  .roster-img {
-    width: 200px;
-    height: 200px
-  }
-
+@media screen and (max-width: 900px) {
   .roster-header {
     font-size: 28px;
   }
@@ -72,4 +67,9 @@
 
 .header-img {
   margin: 10 auto;
+}
+
+.linkedin-anchor {
+  color: #000;
+  text-decoration: none;
 }

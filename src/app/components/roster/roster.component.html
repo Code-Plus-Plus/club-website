@@ -10,10 +10,23 @@
 </div>
 
 <ul class="roster-list">
-  <li *ngFor='let listing of rosterList' class="roster-li card">
-    <h2 class="roster-header">{{listing.firstName}} {{listing.lastName}}</h2>
-    <img src="{{listing.imgUrl}}" alt="{{listing.firstName}}'s pic" class="roster-img">
-    <p class="roster-li-text">Position: {{listing.position}}</p>
-    <p class="roster-li-text">{{listing.email}}</p>
+  <li *ngFor='let listing of rosterList'>
+    <!-- HTML for profiles with linkedin -->
+    <a href="https://www.linkedin.com/in/{{listing.linkedin}}" *ngIf="listing.linkedin" class="linkedin-anchor" target="_blank">
+      <div class="roster-li-wrapper card">
+        <h2 class="roster-header">{{listing.firstName}} {{listing.lastName}}</h2>
+        <img src="{{listing.imgUrl}}" alt="{{listing.firstName}}'s pic" class="roster-img">
+        <p class="roster-li-text">Position: {{listing.position}}</p>
+        <p class="roster-li-text">{{listing.email}}</p>
+      </div>
+    </a>
+
+    <!-- HTML for profiles without linkedin -->
+    <div class="roster-li-wrapper card" *ngIf="!listing.linkedin">
+      <h2 class="roster-header">{{listing.firstName}} {{listing.lastName}}</h2>
+      <img src="{{listing.imgUrl}}" alt="{{listing.firstName}}'s pic" class="roster-img">
+      <p class="roster-li-text">Position: {{listing.position}}</p>
+      <p class="roster-li-text">{{listing.email}}</p>
+    </div>
   </li>
 </ul>
