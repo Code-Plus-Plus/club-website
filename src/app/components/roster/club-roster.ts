@@ -82,7 +82,28 @@ export const clubRoster: RosterListing[] = [
     firstName: "Josh",
     lastName: "Ruge",
     imgUrl: "./assets/img/roster/josh-md.jpg",
-    email: "josh@ruge.com",
+    email: "lorem@ipsum.org",
+    position: "Member"
+  },
+  {
+    firstName: "Shaniel 'Omar'",
+    lastName: "Rivas Verdejo",
+    imgUrl: "./assets/img/roster/shaniel-md.jpg",
+    email: "lorem@ipsum.org",
+    position: "Member"
+  },
+  {
+    firstName: "Rohit",
+    lastName: "Sankhe",
+    imgUrl: "./assets/img/roster/rohit-md.jpg",
+    email: "lorem@ipsum.org",
+    position: "Member"
+  },
+  {
+    firstName: "Sameer",
+    lastName: "Tariq",
+    imgUrl: "./assets/img/roster/sameer-md.jpg",
+    email: "lorem@ipsum.org",
     position: "Member"
   },
 ];
