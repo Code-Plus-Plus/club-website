@@ -93,14 +93,6 @@ export const clubRoster: RosterListing[] = [
     linkedin: "josh-ruge-3166a649"
   },
   {
-    firstName: "Shaniel 'Omar'",
-    lastName: "Rivas Verdejo",
-    imgUrl: "./assets/img/roster/shaniel-md.jpg",
-    email: "lorem@ipsum.org",
-    position: "Member",
-    linkedin: "shaniel-omar-rivas-verdejo-6338357b"
-  },
-  {
     firstName: "Rohit",
     lastName: "Sankhe",
     imgUrl: "./assets/img/roster/rohit-md.jpg",
@@ -123,5 +115,13 @@ export const clubRoster: RosterListing[] = [
     email: "lorem@ipsum.org",
     position: "Member",
     linkedin: "salman-sattar-33b95a171"
+  },
+  {
+    firstName: "Shaniel 'Omar'",
+    lastName: "Rivas Verdejo",
+    imgUrl: "./assets/img/roster/shaniel-md.jpg",
+    email: "lorem@ipsum.org",
+    position: "Member",
+    linkedin: "shaniel-omar-rivas-verdejo-6338357b"
   },
 ];

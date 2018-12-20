@@ -30,7 +30,9 @@
   margin: 0 auto;
   list-style-type: none;
   padding-left: 0;
-  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,18 +42,23 @@
 }
 
 .roster-li-wrapper {
-  margin-top: 40px;
-  padding: 16px 60px;
+  /*margin-top: 40px;*/
+  margin: 24px;
+  padding: 16px 42px;
 }
 
 .roster-img {
   width: 400px;
-  max-width: 94%;
+  max-width: 98%;
   height: auto;
   margin: 0 auto 12px auto;
 }
 
 @media screen and (max-width: 900px) {
+  .roster-li-wrapper {
+    padding: 8px 20px;
+  }
+
   .roster-header {
     font-size: 28px;
   }
