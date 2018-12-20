@@ -46,7 +46,8 @@
 
 .roster-img {
   width: 400px;
-  height: 400px;
+  max-width: 98%;
+  height: auto;
   margin: 0 auto;
 }
 
