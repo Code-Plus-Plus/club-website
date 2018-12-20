@@ -1,11 +1,11 @@
 <nav class="navbar fixed-top main-nav">
   <ul class="navbar-nav main-nav-list lg-screen-only">
     <li class="nav-item home-nav">
-      <a routerLink="/" routerLinkActive="active">
+      <a routerLink="/" routerLinkActive="active"    
+        (mouseover)="isLogoHover = true"
+        (mouseout)="isLogoHover = false">
         <img [src]="isLogoHover ? './assets/img/code-logo-xs-hover.jpg' : './assets/img/code-logo-xs.jpg'"
-          alt="Code++ Logo." class="nav-logo"
-          (mouseover)="isLogoHover = true"
-          (mouseout)="isLogoHover = false">
+          alt="Code++ Logo." class="nav-logo">
       </a>
     </li>
 
@@ -36,7 +36,7 @@
     </span>
 
     <li class="nav-item github-li">
-      <a href="https://github.com/Code-Plus-Plus" class="nav-link">
+      <a href="https://github.com/Code-Plus-Plus" target="_blank" class="nav-link">
         <i class="fa fa-github" aria-hidden="true"></i>
       </a>
     </li>
