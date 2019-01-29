@@ -44,6 +44,7 @@
 .roster-li-wrapper {
   margin: 24px;
   padding: 16px 42px;
+  height: 646px;
   max-width: 486px;
 }
 
@@ -55,8 +56,7 @@
 }
 
 .roster-name {
-  width: 80%;
-  margin: 0 auto 12px auto;
+  margin: 0 auto 24px auto;
 }
 
 @media screen and (max-width: 900px) {
