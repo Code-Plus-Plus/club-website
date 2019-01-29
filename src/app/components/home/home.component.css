@@ -33,7 +33,14 @@
   margin-top: 24px;
   text-align: center;
   list-style-type: none;
-  padding-left: 0;
+  padding: 0 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-list > li {
+  padding: 20px;
 }
 
 .feature-link {
