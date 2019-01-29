@@ -117,10 +117,18 @@ export const clubRoster: RosterListing[] = [
     linkedin: "salman-sattar-33b95a171"
   },
   {
+    firstName: "Aaron",
+    lastName: "Jones",
+    imgUrl: "./assets/img/roster/aaron-md.jpg",
+    email: "ajones19@niu.edu",
+    position: "Member",
+    linkedin: "aaron-j"
+  },
+  {
     firstName: "Shaniel 'Omar'",
     lastName: "Rivas Verdejo",
     imgUrl: "./assets/img/roster/shaniel-md.jpg",
-    email: "shanielrivas31@gmail.com",
+    email: "srivasverdejo@niu.edu",
     position: "Member",
     linkedin: "shaniel-omar-rivas-verdejo-6338357b"
   },
