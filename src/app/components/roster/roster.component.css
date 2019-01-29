@@ -44,12 +44,18 @@
 .roster-li-wrapper {
   margin: 24px;
   padding: 16px 42px;
+  max-width: 486px;
 }
 
 .roster-img {
   width: 400px;
   max-width: 98%;
   height: auto;
+  margin: 0 auto 12px auto;
+}
+
+.roster-name {
+  width: 80%;
   margin: 0 auto 12px auto;
 }
 

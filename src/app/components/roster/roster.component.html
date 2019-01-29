@@ -14,7 +14,7 @@
     <!-- Profiles WITH linkedin -->
     <a href="https://www.linkedin.com/in/{{listing.linkedin}}" *ngIf="listing.linkedin" class="linkedin-anchor" target="_blank">
       <div class="roster-li-wrapper card">
-        <h2 class="roster-header">{{listing.firstName}} {{listing.lastName}}</h2>
+        <h2 class="roster-header roster-name">{{listing.firstName}} {{listing.lastName}}</h2>
         <img src="{{listing.imgUrl}}" alt="{{listing.firstName}}'s pic" class="roster-img">
         <p class="roster-li-text">Position: {{listing.position}}</p>
         <p class="roster-li-text">{{listing.email}}</p>
@@ -23,7 +23,7 @@
 
     <!-- Profiles WITHOUT linkedin -->
     <div class="roster-li-wrapper card" *ngIf="!listing.linkedin">
-      <h2 class="roster-header">{{listing.firstName}} {{listing.lastName}}</h2>
+      <h2 class="roster-header roster-name">{{listing.firstName}} {{listing.lastName}}</h2>
       <img src="{{listing.imgUrl}}" alt="{{listing.firstName}}'s pic" class="roster-img">
       <p class="roster-li-text">Position: {{listing.position}}</p>
       <p class="roster-li-text">{{listing.email}}</p>
